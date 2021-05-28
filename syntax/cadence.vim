@@ -8,7 +8,7 @@ if exists("b:current_syntax")
 endif
 
 " Keywords
-syn keyword celBlockCmd         access all import contract return init size event interface struct
+syn keyword celBlockCmd         access all import contract return init size event interface struct pub priv
 syn keyword celBlockSelf        self
 syn keyword celBlockVar         let var nextgroup=celVarStr skipwhite
 syn keyword celBlockFun         fun
