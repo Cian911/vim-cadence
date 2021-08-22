@@ -1,3 +1,8 @@
+" Vim syntax file
+" Language: Cadence
+" Maintainer: Cian911
+" Latest Revision: 22 August 2021
+
 if exists("b:did_indent")
   finish
 endif
