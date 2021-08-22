@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Cadence
-" Maintainer: Cian Gallagher
-" Latest Revision: 05 May 2021
+" Maintainer: Cian911
+" Latest Revision: 22 August 2021
 
 if exists("b:current_syntax")
   finish
@@ -13,7 +13,7 @@ syn keyword celBlockSelf        self
 syn keyword celBlockVar         let var nextgroup=celVarStr skipwhite
 syn keyword celBlockFun         fun
 syn keyword celBlockVariables   true false nil
-syn keyword celBlockCmd         for emit execute resource create do while if do destroy pre post
+syn keyword celBlockCmd         for emit execute resource create do while if do destroy pre post prepare transaction from
 
 " Types
 syn keyword celBlockInt         Int Int8 Int16 Int32 Int64 Int128 Int256
