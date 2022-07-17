@@ -1,6 +1,6 @@
 # vim-cadence
 
-Syntax highlight for the Cadence programming language. A high level programming lanaguage intended for smart contract development.
+Syntax highlighting for the Cadence programming language. A high level programming lanaguage intended for smart contract development.
 
 ### Installation
 
